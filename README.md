@@ -5,11 +5,11 @@ Toy library for learning nodejs, it escapes and unescapes HTML entities.
 
 
 ## Installation
-
+```shell
   npm install scapeboat --save
-
+```
 ## Usage
-
+```js
   var scapeboat = require('scapeboat')
       escape = scapeboat.escape,
       unescape = scapeboat.unescape;
@@ -18,7 +18,7 @@ Toy library for learning nodejs, it escapes and unescapes HTML entities.
 
   console.log('Escaped: ', escape(html));
   console.log('Unescaped: ', unescape(escaped(html)));
-
+```
 ## Tests
 
   npm test
